@@ -1,6 +1,7 @@
 let gulp = require('gulp');
 let rename = require('gulp-rename');
 let sass = require('gulp-sass');
+let concat = require('gulp-concat');
 
 // final tasks 
 gulp.task('sass', () => {
