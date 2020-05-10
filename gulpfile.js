@@ -4,6 +4,7 @@ let sass = require('gulp-sass');
 let concat = require('gulp-concat');
 let uglify = require('gulp-uglify-es').default;
 let htmlmin = require('gulp-htmlmin');
+let cleanCSS = require('gulp-clean-css');
 
 // js files array 
 let jsArray = [];
@@ -32,4 +33,11 @@ return gulp.src('src/*.html')
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('dist'));
 });
+
+gulp.task('minify-css', () => {
+    return gulp.src('./src/css/style.css')
+      .pipe(cleanCSS({compatibility: 'ie8'}))
+      .pipe(rename({suffix: '.min'}))
+      .pipe(gulp.dest('dist/css/'));
+  });
 
