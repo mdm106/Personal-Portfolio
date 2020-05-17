@@ -88,9 +88,19 @@ img {
   .navbar__brand a span {
     color: grey; }
 
-.hero__image {
-  margin: auto;
-  display: block;
-  width: 100%;
-  position: relative;
-  height: 80vh; }
+.hero__heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  color: white;
+  width: 70vw;
+  padding-left: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+
+.hero {
+  background-image: url(../../images/blue-green-lines-small.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw; }

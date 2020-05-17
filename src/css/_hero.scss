@@ -1,0 +1,23 @@
+.hero__heading {
+    font-family: $roboto-font;
+    font-size: 5rem;
+    color: white;
+    width: 70vw;
+    padding-left: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.hero {
+    background-image: url(../../images/blue-green-lines-small.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    width: 100vw;
+}
+
+
+
+
