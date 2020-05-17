@@ -3,9 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@531;700&display=swap');
 //Roboto
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+//Prima Sans
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 //Font variables
 $roboto-font: 'Roboto', sans-serif;
 $inter-font: 'Inter', sans-serif;
+$courier-font: 'Courier Prime', monospace;
 
 //Colour palette to go with blue-green-lines picture
 $dark-slate-blue: #2A5877;
@@ -13,10 +16,12 @@ $steel-blue: #366F8F;
 $dark-slate-grey: #264251;
 $powder-blue: #B2DAE1;
 $aquamarine: #6EBAC6;
+$dark-aquamarine: #318a83;
+$medium-aquamarine: #0597b8;
 
-@mixin blue-text {
-    font-family: $inter-font;
-    color: $dark-slate-blue;
+@mixin nav-text {
+    color: $medium-aquamarine;
+    text-decoration: none;
 }
 
 * {
