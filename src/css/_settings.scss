@@ -13,3 +13,15 @@ $steel-blue: #366F8F;
 $dark-slate-grey: #264251;
 $powder-blue: #B2DAE1;
 $aquamarine: #6EBAC6;
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+img {
+    object-fit: cover;
+}
