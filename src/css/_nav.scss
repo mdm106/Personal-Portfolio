@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem 5rem;
+}
+
+.navbar__content {
+    align-self: center;
+}
+ 
+.navbar__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+
+.navbar__item {
+    a {
+      @include nav-text;
+      text-transform: uppercase;
+      font-family: $roboto-font;
+      font-size: 1.3rem;
+    }
+}
+
+.navbar__brand {
+    a {
+        @include nav-text;
+        font-family: $courier-font;
+        vertical-align: bottom;
+        font-size: 1.5rem;
+        span {
+            color: grey;
+        }
+    } 
+}
+
+
+
+//   <nav class="navbar">
+//         <div class="container">
+//             <div class="navbar__header">
+//             <!-- 'Brand' style heading -->
+//                 <h1 class="navbar__brand">
+//                     <a href="#">Maddy McMahon</a>
+//                 </h1>
+//             </div>
+//             <div class="navbar__content">
+//                 <ul class="navbar__list">
+//                     <li class="navbar__item" >
+//                         <a href="#" >About</a>
+//                     </li>
+//                     <li class="navbar__item" >
+//                         <a class="" href="#" >Skills</a>
+//                     </li>
