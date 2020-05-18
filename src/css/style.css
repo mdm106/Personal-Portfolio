@@ -88,6 +88,12 @@ img {
   .navbar__brand a span {
     color: grey; }
 
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover; }
+
 .hero__heading {
   font-family: "Roboto", sans-serif;
   font-size: 5rem;
@@ -106,3 +112,19 @@ img {
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100vw; }
+
+.row-article {
+  display: flex;
+  flex-direction: row; }
+
+.row-article__main, .row-article__img {
+  padding: 3rem; }
+
+.row-article__img {
+  width: 40%; }
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover; }

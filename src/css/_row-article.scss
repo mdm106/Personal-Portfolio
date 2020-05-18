@@ -1,0 +1,19 @@
+.row-article{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-article__main, .row-article__img{
+    padding: 3rem;
+}
+
+.row-article__img{
+    width: 40%;
+}
+
+img {
+    display: block; 
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover; 
+}
