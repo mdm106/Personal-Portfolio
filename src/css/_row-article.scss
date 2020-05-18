@@ -1,10 +1,12 @@
 .row-article{
     display: flex;
     flex-direction: row;
+    margin: auto;
+    width: 90%;
 }
 
 .row-article__main, .row-article__img{
-    padding: 4rem;
+    margin: 3rem;
 }
 
 .row-article__main {
@@ -14,4 +16,6 @@
 .row-article__img{
     flex-basis: 35%;
 }
+
+
 
