@@ -2,6 +2,8 @@
     font-family: $roboto-font;
     font-size: 5rem;
     color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $dark-slate-blue;
     width: 70vw;
     padding-left: 5rem;
     padding-top: 10rem;

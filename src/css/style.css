@@ -92,6 +92,8 @@ img {
   font-family: "Roboto", sans-serif;
   font-size: 5rem;
   color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #2A5877;
   width: 70vw;
   padding-left: 5rem;
   padding-top: 10rem;
