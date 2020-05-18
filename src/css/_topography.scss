@@ -1,5 +1,11 @@
-.row-article__head, .row-article__text{
+.row-article__text{
     font-family: $roboto-font;
     color: black;
     font-size: 1.2rem;
+}
+
+.row-article__head {
+    font-family: $inter-font;
+    color: $dark-slate-blue;
+    font-size: 2rem;
 }

@@ -95,10 +95,15 @@ img {
   height: auto;
   object-fit: cover; }
 
-.row-article__head, .row-article__text {
+.row-article__text {
   font-family: "Roboto", sans-serif;
   color: black;
   font-size: 1.2rem; }
+
+.row-article__head {
+  font-family: "Inter", sans-serif;
+  color: #2A5877;
+  font-size: 2rem; }
 
 .hero__heading {
   font-family: "Roboto", sans-serif;
