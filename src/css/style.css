@@ -95,6 +95,11 @@ img {
   height: auto;
   object-fit: cover; }
 
+.row-article__head, .row-article__text {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 1.2rem; }
+
 .hero__heading {
   font-family: "Roboto", sans-serif;
   font-size: 5rem;
