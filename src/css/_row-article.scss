@@ -1,8 +1,5 @@
 .row-article{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    width: 90%;
+    @include central-feature;
 }
 
 .row-article__main, .row-article__img{
