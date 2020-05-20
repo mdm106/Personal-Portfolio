@@ -163,7 +163,10 @@ img {
   display: flex;
   flex-direction: row;
   margin: auto;
-  width: 90%; }
+  width: 90%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto; }
 
 .card {
   display: flex;
@@ -184,3 +187,7 @@ img {
 .card__img img {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px; }
+
+.card__img .move-icon {
+  text-align: center;
+  vertical-align: middle; }
