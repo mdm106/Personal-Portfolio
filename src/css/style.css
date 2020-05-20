@@ -164,14 +164,17 @@ img {
   flex-direction: row;
   margin: auto;
   width: 90%;
-  display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto; }
+  overflow-x: scroll;
+  overflow-y: hidden; }
 
 .card {
   display: flex;
   flex-direction: column;
-  padding: 2rem; }
+  padding: 2rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 33.3%; }
 
 .card__head {
   width: 100%;
@@ -187,7 +190,3 @@ img {
 .card__img img {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px; }
-
-.card__img .move-icon {
-  text-align: center;
-  vertical-align: middle; }
