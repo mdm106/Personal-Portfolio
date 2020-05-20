@@ -20,12 +20,6 @@ $dark-aquamarine: #318a83;
 $medium-aquamarine: #0597b8;
 $grey-bg: rgb(240,243,245);
 
-
-@mixin nav-text {
-    color: $medium-aquamarine;
-    text-decoration: none;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -36,5 +30,12 @@ body, html {
 
 img {
     object-fit: cover;
+}
+
+@mixin central-feature {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
 }
 
