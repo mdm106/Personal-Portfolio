@@ -1,3 +1,12 @@
+
+.card__title{
+    font-family: $inter-font;
+    color: $dark-slate-blue;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1.2rem;
+}
+
 .container--cards{
     @include central-feature;
     flex-wrap: nowrap;

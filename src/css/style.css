@@ -159,6 +159,13 @@ img {
 .container--grey {
   background-color: #f0f3f5; }
 
+.card__title {
+  font-family: "Inter", sans-serif;
+  color: #2A5877;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1.2rem; }
+
 .container--cards {
   display: flex;
   flex-direction: row;
