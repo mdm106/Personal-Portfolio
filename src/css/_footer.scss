@@ -1,3 +1,23 @@
 .footer {
     background-color: $light-steel-blue;
 }
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer__socials {
+    padding-right: 5rem;
+}
+
+.footer__contact {
+    padding-left: 5rem;
+}
+
+.footer__copy {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
