@@ -145,7 +145,8 @@ img {
   display: flex;
   flex-direction: row;
   margin: auto;
-  width: 80%; }
+  width: 80%;
+  max-width: 1200px; }
 
 .row-article__main, .row-article__img {
   margin: 3rem; }
@@ -175,6 +176,7 @@ img {
   flex-direction: row;
   margin: auto;
   width: 80%;
+  max-width: 1200px;
   flex-wrap: nowrap;
   overflow-x: scroll;
   overflow-y: hidden; }
