@@ -196,10 +196,10 @@ img {
 
 .card__blurb {
   background-color: #f0f3f5;
-  padding: 2rem 0.5rem;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px; }
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; }
 
 .card__img img {
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px; }
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px; }
