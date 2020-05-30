@@ -114,6 +114,9 @@ img {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem; }
 
+.navbar__item a:hover {
+  text-decoration: underline; }
+
 .navbar__brand a {
   color: #448cb4;
   text-decoration: none;
@@ -122,6 +125,9 @@ img {
   font-size: 1.5rem; }
   .navbar__brand a span {
     color: grey; }
+
+.navbar__brand a:hover {
+  text-decoration: underline; }
 
 .hero__container {
   padding-left: 5rem;

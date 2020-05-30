@@ -27,6 +27,9 @@
       font-family: $roboto-font;
       font-size: 1.3rem;
     }
+    a:hover{
+        text-decoration: underline;
+    }
 }
 
 .navbar__brand {
@@ -39,4 +42,9 @@
             color: grey;
         }
     } 
+    a:hover{
+        text-decoration: underline;
+    }
 }
+
+
