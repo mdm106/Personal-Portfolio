@@ -177,9 +177,9 @@ img {
   margin: auto;
   width: 80%;
   max-width: 1200px;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-  overflow-y: hidden; }
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: space-around; }
 
 .card {
   display: flex;

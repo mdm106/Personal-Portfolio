@@ -9,9 +9,9 @@
 
 .container--cards{
     @include central-feature;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-around;
 }
 
 
