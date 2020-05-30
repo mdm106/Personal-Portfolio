@@ -237,16 +237,20 @@ img {
 
 .footer__row {
   display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 80%;
+  max-width: 1200px;
   justify-content: space-between;
   padding-top: 2rem;
   padding-bottom: 2rem; }
 
 .footer__socials {
-  padding-right: 5rem;
+  padding-right: 1.5rem;
   align-self: center; }
 
 .footer__contact {
-  padding-left: 5rem; }
+  padding-left: 1.5rem; }
 
 .footer__copy {
   text-align: center;
