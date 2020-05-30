@@ -157,6 +157,9 @@ img {
 .row-article__img {
   flex-basis: 35%; }
 
+.row-article__img img {
+  border-radius: 15px; }
+
 .row-article__text {
   margin-top: 1.5rem;
   line-height: 1.5rem; }
