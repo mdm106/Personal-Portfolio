@@ -71,7 +71,7 @@ img {
 
 .row-article__head {
   font-family: "Inter", sans-serif;
-  color: #2A5877;
+  color: #366F8F;
   font-size: 2rem; }
 
 .card__head {
@@ -103,14 +103,14 @@ img {
   width: 40vw; }
 
 .navbar__item a {
-  color: #0597b8;
+  color: #366F8F;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem; }
 
 .navbar__brand a {
-  color: #0597b8;
+  color: #366F8F;
   text-decoration: none;
   font-family: "Courier Prime", monospace;
   vertical-align: bottom;
