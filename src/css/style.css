@@ -82,7 +82,12 @@ img {
     color: #448cb4;
     font-size: 1.4rem;
     text-decoration: none;
-    display: inline-block; }
+    display: inline-block;
+    padding: 0.5rem; }
+  .card__head a:hover {
+    background-color: #448cb4;
+    color: white;
+    border-radius: 5px; }
 
 .navbar {
   display: flex;
@@ -197,7 +202,8 @@ img {
 .card__head {
   width: 100%;
   background-color: #f0f3f5;
-  padding: 0.7rem; }
+  padding-top: 0.5rem;
+  padding-bottom: 0.3rem; }
 
 .card__blurb {
   background-color: #f0f3f5;

@@ -22,6 +22,12 @@
         font-size: 1.4rem;
         text-decoration: none;
         display: inline-block;
+        padding: 0.5rem;
+    }
+    a:hover {
+        background-color: lighten($steel-blue, 10%);
+        color: white;
+        border-radius: 5px;
     }
     text-align: center;
     vertical-align: middle;
