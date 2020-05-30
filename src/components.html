@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="css/style.css"> <!-- change to style.min.css at end of repro -->
     <script src="https://kit.fontawesome.com/da4cbb9308.js" crossorigin="anonymous"></script>
+    
     <!-- <script src="scripts.js" defer></script> -->
 
 </head>
@@ -29,7 +30,7 @@
             <div class="navbar__content">
                 <ul class="navbar__list">
                     <li class="navbar__item" >
-                        <a href="#about" >About</a>
+                        <a data-scroll href="#about" >About</a>
                     </li>
                     <li class="navbar__item" >
                         <a class="" href="#skills" >Skills</a>
@@ -145,13 +146,19 @@
             </div>
             <div class="footer__socials">
                 <a class="footer__links" href=""><i class="fab fa-linkedin"></i></a>
-                <a class="footer__links" href=""><i class="fab fa-github"></i></a>
+                <a class="footer__links" href="https://github.com/mdm106"><i class="fab fa-github"></i></a>
             </div>
         </div>
         <div class="footer__copy">
             <span class="footer__text-tiny">&copy Maddy McMahon 2020</span>
         </div>
     </footer>
-
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed:  350
+        } );
+    </script>
 </body>
+
 </html>
