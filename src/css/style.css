@@ -141,7 +141,7 @@ img {
   display: flex;
   flex-direction: row;
   margin: auto;
-  width: 90%; }
+  width: 80%; }
 
 .row-article__main, .row-article__img {
   margin: 3rem; }
@@ -170,7 +170,7 @@ img {
   display: flex;
   flex-direction: row;
   margin: auto;
-  width: 90%;
+  width: 80%;
   flex-wrap: nowrap;
   overflow-x: scroll;
   overflow-y: hidden; }
