@@ -89,6 +89,15 @@ img {
     color: white;
     border-radius: 5px; }
 
+.footer__text, .footer__text-large, .footer__text-small {
+  font-family: "Roboto", sans-serif;
+  color: white; }
+  .footer__text-large {
+    font-size: 2rem;
+    padding-bottom: 0.5rem; }
+  .footer__text-small {
+    font-size: 1.5rem; }
+
 .navbar {
   display: flex;
   flex-direction: row;

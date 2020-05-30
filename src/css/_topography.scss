@@ -32,3 +32,17 @@
     text-align: center;
     vertical-align: middle;
 }
+
+.footer__text {
+    font-family: $roboto-font;
+    color: white;
+    &-large {
+        @extend .footer__text;
+        font-size: 2rem;
+        padding-bottom: 0.5rem;
+    }
+    &-small {
+        @extend .footer__text;
+        font-size: 1.5rem;
+    }
+}
