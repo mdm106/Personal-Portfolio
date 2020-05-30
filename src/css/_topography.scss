@@ -1,5 +1,5 @@
 @mixin nav-text {
-    color: lighten($steel-blue, 10%);
+    color: $light-steel-blue;
     text-decoration: none;
 }
 
@@ -11,21 +11,21 @@
 
 .row-article__head {
     font-family: $inter-font;
-    color: lighten($steel-blue, 10%);
+    color: $light-steel-blue;
     font-size: 2rem;
 }
 
 .card__head{
     a {
         font-family: $inter-font;
-        color: lighten($steel-blue, 10%);
+        color: $light-steel-blue;
         font-size: 1.4rem;
         text-decoration: none;
         display: inline-block;
         padding: 0.5rem;
     }
     a:hover {
-        background-color: lighten($steel-blue, 10%);
+        background-color: $light-steel-blue;
         color: white;
         border-radius: 5px;
     }

@@ -19,6 +19,7 @@ $aquamarine: #6EBAC6;
 $dark-aquamarine: #318a83;
 $medium-aquamarine: #0597b8;
 $grey-bg: rgb(240,243,245);
+$light-steel-blue: lighten($steel-blue, 10%);
 
 * {
     box-sizing: border-box;
