@@ -79,7 +79,7 @@ img {
   vertical-align: middle; }
   .card__head a {
     font-family: "Inter", sans-serif;
-    color: white;
+    color: #366F8F;
     font-size: 1.4rem;
     text-decoration: none;
     display: inline-block; }
@@ -191,7 +191,7 @@ img {
 
 .card__head {
   width: 100%;
-  background-color: #448cb4;
+  background-color: #f0f3f5;
   padding: 0.7rem; }
 
 .card__blurb {
