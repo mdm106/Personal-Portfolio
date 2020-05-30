@@ -71,7 +71,7 @@ img {
 
 .row-article__head {
   font-family: "Inter", sans-serif;
-  color: #366F8F;
+  color: #448cb4;
   font-size: 2rem; }
 
 .card__head {
@@ -79,7 +79,7 @@ img {
   vertical-align: middle; }
   .card__head a {
     font-family: "Inter", sans-serif;
-    color: #366F8F;
+    color: #448cb4;
     font-size: 1.4rem;
     text-decoration: none;
     display: inline-block; }
@@ -103,14 +103,14 @@ img {
   width: 40vw; }
 
 .navbar__item a {
-  color: #366F8F;
+  color: #448cb4;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem; }
 
 .navbar__brand a {
-  color: #366F8F;
+  color: #448cb4;
   text-decoration: none;
   font-family: "Courier Prime", monospace;
   vertical-align: bottom;
@@ -166,7 +166,7 @@ img {
 
 .card__title {
   font-family: "Inter", sans-serif;
-  color: #2A5877;
+  color: #448cb4;
   font-size: 2rem;
   text-align: center;
   padding-top: 1.2rem; }
