@@ -89,7 +89,7 @@ img {
     color: white;
     border-radius: 5px; }
 
-.footer__text, .footer__text-large, .footer__text-small {
+.footer__text, .footer__text-large, .footer__text-small, .footer__text-tiny {
   font-family: "Roboto", sans-serif;
   color: white; }
   .footer__text-large {
@@ -97,6 +97,8 @@ img {
     padding-bottom: 0.5rem; }
   .footer__text-small {
     font-size: 1.5rem; }
+  .footer__text-tiny {
+    font-size: 0.8rem; }
 
 .navbar {
   display: flex;
@@ -240,7 +242,8 @@ img {
   padding-bottom: 2rem; }
 
 .footer__socials {
-  padding-right: 5rem; }
+  padding-right: 5rem;
+  align-self: center; }
 
 .footer__contact {
   padding-left: 5rem; }
