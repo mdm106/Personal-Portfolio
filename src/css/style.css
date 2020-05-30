@@ -166,10 +166,12 @@ img {
 
 .card__title {
   font-family: "Inter", sans-serif;
-  color: #448cb4;
+  color: white;
+  background-color: #448cb4;
   font-size: 2rem;
   text-align: center;
-  padding-top: 1.2rem; }
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem; }
 
 .container--cards {
   display: flex;
