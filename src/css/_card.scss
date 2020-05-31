@@ -1,14 +1,4 @@
 
-.card__title{
-    font-family: $inter-font;
-    color: white;
-    background-color: lighten($steel-blue, 10%);
-    font-size: 2rem;
-    text-align: center;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-}
-
 .container--cards{
     @include central-feature;
     flex-flow: row wrap;

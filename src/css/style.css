@@ -74,6 +74,15 @@ img {
   color: #448cb4;
   font-size: 2rem; }
 
+.card__title {
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: #448cb4;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem; }
+
 .card__head {
   text-align: center;
   vertical-align: middle; }
@@ -188,15 +197,6 @@ img {
 
 .container--grey {
   background-color: #f0f3f5; }
-
-.card__title {
-  font-family: "Inter", sans-serif;
-  color: white;
-  background-color: #448cb4;
-  font-size: 2rem;
-  text-align: center;
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem; }
 
 .container--cards {
   display: flex;
