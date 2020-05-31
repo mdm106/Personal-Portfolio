@@ -64,6 +64,28 @@ img {
   height: auto;
   object-fit: cover; }
 
+.navbar__item a {
+  color: #448cb4;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem; }
+
+.navbar__item a:hover {
+  text-decoration: underline; }
+
+.navbar__brand a {
+  color: #448cb4;
+  text-decoration: none;
+  font-family: "Courier Prime", monospace;
+  vertical-align: bottom;
+  font-size: 1.5rem; }
+  .navbar__brand a span {
+    color: grey; }
+
+.navbar__brand a:hover {
+  text-decoration: underline; }
+
 .row-article__text, .card__blurb {
   font-family: "Roboto", sans-serif;
   color: black;
@@ -126,28 +148,6 @@ img {
   flex-direction: row;
   justify-content: space-between;
   width: 40vw; }
-
-.navbar__item a {
-  color: #448cb4;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.3rem; }
-
-.navbar__item a:hover {
-  text-decoration: underline; }
-
-.navbar__brand a {
-  color: #448cb4;
-  text-decoration: none;
-  font-family: "Courier Prime", monospace;
-  vertical-align: bottom;
-  font-size: 1.5rem; }
-  .navbar__brand a span {
-    color: grey; }
-
-.navbar__brand a:hover {
-  text-decoration: underline; }
 
 .hero__container {
   padding-left: 5rem;

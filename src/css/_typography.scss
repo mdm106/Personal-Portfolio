@@ -3,6 +3,34 @@
     text-decoration: none;
 }
 
+.navbar__item {
+    a {
+      @include nav-text;
+      text-transform: uppercase;
+      font-family: $roboto-font;
+      font-size: 1.3rem;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.navbar__brand {
+    a {
+        @include nav-text;
+        font-family: $courier-font;
+        vertical-align: bottom;
+        font-size: 1.5rem;
+        span {
+            color: grey;
+        }
+    } 
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+
 .row-article__text, .card__blurb{
     font-family: $roboto-font;
     color: black;
