@@ -91,6 +91,9 @@ img {
   color: black;
   font-size: 1.2rem; }
 
+.row-article__text {
+  line-height: 1.5rem; }
+
 .row-article__head {
   font-family: "Inter", sans-serif;
   color: #448cb4;
@@ -215,8 +218,7 @@ img {
   border-radius: 15px; }
 
 .row-article__text {
-  margin-top: 1.5rem;
-  line-height: 1.5rem; }
+  margin-top: 1.5rem; }
 
 .container--grey {
   background-color: #f0f3f5; }
