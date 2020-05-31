@@ -69,7 +69,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-  font-size: 1.3rem; }
+  font-size: 1.5rem; }
 
 .navbar__item a:hover {
   text-decoration: underline; }
@@ -79,7 +79,7 @@ img {
   text-decoration: none;
   font-family: "Courier Prime", monospace;
   vertical-align: bottom;
-  font-size: 1.5rem; }
+  font-size: 1.7rem; }
   .navbar__brand a span {
     color: grey; }
 

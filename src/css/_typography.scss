@@ -8,7 +8,7 @@
       @include nav-text;
       text-transform: uppercase;
       font-family: $roboto-font;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
     a:hover{
         text-decoration: underline;
@@ -20,7 +20,7 @@
         @include nav-text;
         font-family: $courier-font;
         vertical-align: bottom;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         span {
             color: grey;
         }
