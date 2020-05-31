@@ -35,10 +35,16 @@
     font-family: $roboto-font;
     color: black;
     font-size: 1.2rem;
+    @include vlarge-desktop {
+        font-size: 2.8rem;
+    }
 }
 
 .row-article__text{
     line-height: 1.5rem;
+    @include vlarge-desktop {
+        line-height: 3rem;
+    }
 }
 
 .row-article__head {
