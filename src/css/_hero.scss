@@ -2,11 +2,20 @@
     padding-left: 5rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
+    @include phone {
+        padding: 4rem;
+        margin: auto;
+    }
 }
 
 .hero__heading {
     font-family: $roboto-font;
     font-size: 5rem;
+    @include phone {
+        font-size: 2rem;
+        width: 70vw;
+        padding: 1rem;
+    }
     color: $medium-aquamarine;
     width: 50vw;
     background-color: white;

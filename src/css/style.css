@@ -200,6 +200,10 @@ img {
   padding-left: 5rem;
   padding-top: 10rem;
   padding-bottom: 10rem; }
+  @media (max-width: 599px) {
+    .hero__container {
+      padding: 4rem;
+      margin: auto; } }
 
 .hero__heading {
   font-family: "Roboto", sans-serif;
@@ -210,6 +214,11 @@ img {
   border-radius: 20px;
   border: 2px solid white;
   padding: 2rem; }
+  @media (max-width: 599px) {
+    .hero__heading {
+      font-size: 2rem;
+      width: 70vw;
+      padding: 1rem; } }
 
 .hero {
   background-image: url(../../images/blue-green-lines-small.jpg);
