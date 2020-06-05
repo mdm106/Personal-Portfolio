@@ -3,15 +3,25 @@
 }
 
 .footer__row {
-    @include central-feature;
-    justify-content: space-between;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    @include non-phone {
+        @include central-feature;
+        justify-content: space-between;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    @include phone {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
 }
 
 .footer__socials {
     padding-right: 1.5rem;
     align-self: center;
+    @include phone {
+        text-align: center;
+        padding: 0.5rem;
+    }
 }
 
 .footer__contact {
@@ -27,4 +37,8 @@
     font-size: 3rem;
     padding: 1rem;
     color: white;
+    @include phone {
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
 }

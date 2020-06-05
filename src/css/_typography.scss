@@ -116,10 +116,16 @@
         @extend .footer__text;
         font-size: 2rem;
         padding-bottom: 0.5rem;
+        @include phone {
+            font-size: 1.5rem;
+        }
     }
     &-small {
         @extend .footer__text;
         font-size: 1.5rem;
+        @include phone {
+            font-size: 1.2rem;
+        }
     }
     &-tiny {
         @extend .footer__text;

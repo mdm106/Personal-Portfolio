@@ -33,14 +33,6 @@ img {
     object-fit: cover;
 }
 
-.anchor {
-  position: relative;
-  padding-top: 4rem;
-  @include phone {
-    padding-top: 1rem;
-  }
-}
-
 @mixin phone {
     @media (max-width: 599px) { @content; }
   }
@@ -67,11 +59,11 @@ img {
   }
 
 @mixin central-feature {
-    display: flex;
     margin: auto;
+    display: flex;
     @include phone {
-        width: 100%;
         flex-direction: column;
+        width: 100%;
     }
     @include tablet-portrait {    
         width: 90%;
@@ -96,5 +88,17 @@ img {
         max-width: 2000px; 
         flex-direction: row;
     }
+}
+
+.anchor {
+  position: relative;
+  padding-top: 4rem;
+  @include phone {
+    padding-top: 1rem;
+  }
+}
+
+.anchor-footer {
+  position: relative;
 }
 
