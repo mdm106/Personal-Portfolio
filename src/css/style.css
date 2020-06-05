@@ -78,12 +78,20 @@ img {
 .navbar__item a:hover {
   text-decoration: underline; }
 
+@media (max-width: 599px) {
+  .navbar__header {
+    line-height: 1.5rem; } }
+
 .navbar__brand a {
   color: #448cb4;
   text-decoration: none;
   font-family: "Courier Prime", monospace;
   vertical-align: bottom;
   font-size: 1.7rem; }
+  @media (max-width: 599px) {
+    .navbar__brand a {
+      font-size: 1.2rem;
+      line-height: 1.5rem; } }
   .navbar__brand a span {
     color: grey; }
 
@@ -154,10 +162,25 @@ img {
   width: 100%; }
   @media (max-width: 599px) {
     .navbar {
-      position: relative; } }
+      position: relative;
+      padding: 1rem; } }
+
+@media (min-width: 599px) {
+  .navbar__mobile {
+    display: none; } }
+
+.navbar__mobile_menu {
+  display: none; }
+
+.navbar__icon {
+  font-size: 1.5rem;
+  color: grey; }
 
 .navbar__content {
   align-self: center; }
+  @media (max-width: 599px) {
+    .navbar__content {
+      display: none; } }
 
 .navbar__list {
   display: flex;

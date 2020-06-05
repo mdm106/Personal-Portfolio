@@ -41,6 +41,9 @@ img {
 @mixin phone {
     @media (max-width: 599px) { @content; }
   }
+  @mixin non-phone {
+    @media (min-width: 599px) { @content; }
+  }
   @mixin tablet-portrait {
     @media (min-width: 600px) { @content; }
   }

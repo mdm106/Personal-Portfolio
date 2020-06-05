@@ -15,12 +15,22 @@
     }
 }
 
+.navbar__header {
+    @include phone {
+        line-height: 1.5rem;
+    }
+}
+
 .navbar__brand {
     a {
         @include nav-text;
         font-family: $courier-font;
         vertical-align: bottom;
         font-size: 1.7rem;
+        @include phone {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+        }
         span {
             color: grey;
         }

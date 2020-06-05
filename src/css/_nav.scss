@@ -8,11 +8,30 @@
     width: 100%;
     @include phone {
         position: relative;
+        padding: 1rem;
     }
+}
+
+.navbar__mobile {
+    @include non-phone {
+        display: none;
+    }
+}
+
+.navbar__mobile_menu {
+    display: none;
+}
+
+.navbar__icon {
+    font-size: 1.5rem;
+    color: grey;
 }
 
 .navbar__content {
     align-self: center;
+    @include phone {
+        display: none;
+    }
 }
  
 .navbar__list {
