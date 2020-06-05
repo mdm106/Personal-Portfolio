@@ -245,7 +245,8 @@ img {
     .hero__heading {
       font-size: 2rem;
       width: 70vw;
-      padding: 1rem; } }
+      padding: 1rem;
+      text-align: center; } }
 
 .hero {
   background-image: url(../../images/blue-green-lines-small.jpg);
