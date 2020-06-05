@@ -45,27 +45,31 @@
             </div> 
             <!-- Top Navigation Menu -->
             <div class="navbar__mobile">
-            <!-- Navigation links (hidden by default) -->
-            <div class="navbar__mobile_menu">
-                <li class="navbar_item_mobile">
-                    <a href="#about">About</a>
-                </li>
-                <li class="navbar_item_mobile">
-                    <a href="#skills">Skills</a>
-                </li>
-                <li class="navbar_item_mobile">
-                    <a href="#projects">Projects</a>
-                </li>
-                <li class="navbar_item_mobile">
-                    <a href="#contact">Contact</a>
-                </li>
-            </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <a href="javascript:void(0);" class="navbar__icon" onclick="myFunction()">
-                <i class="fas fa-bars"></i>
-            </a>
+                <a href="javascript:void(0);" class="navbar__icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
             </div> 
+            <!-- Navigation links (hidden by default) -->
+            
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->       
     </nav>
+
+    <div class="navbar__mobile_menu hidden" id="mobile-links">
+        <ul class="navbar__list_mobile">
+            <li class="navbar__item">
+                <a href="#about">About</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#skills">Skills</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#projects">Projects</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
 
     <!--Hero Image and header-->
     <div class="hero">
@@ -182,12 +186,16 @@
     <script src="js/smooth-scroll.min.js"></script>
     <script>
         function myFunction() {
-          var x = document.getElementById("myLinks");
+          var x = document.getElementById("mobile-links");
           if (x.style.display === "block") {
             x.style.display = "none";
-          } else {
+            x.classList.add("hidden");
+            x.classList.remove("shown");
+            } else {
             x.style.display = "block";
-          }
+            x.classList.remove("hidden");
+            x.classList.add("shown");
+            }
         }
     </script>
 </body>
