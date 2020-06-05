@@ -48,6 +48,9 @@
     font-family: $roboto-font;
     color: black;
     font-size: 1.2rem;
+    @include phone {
+        font-size: 0.8rem;
+    }
     @include vlarge-desktop {
         font-size: 2.8rem;
     }
@@ -64,6 +67,9 @@
     font-family: $inter-font;
     color: $light-steel-blue;
     font-size: 2rem;
+    @include phone {
+        font-size: 1.5rem;
+    }
 }
 
 .card__title{

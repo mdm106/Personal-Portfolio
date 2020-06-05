@@ -105,6 +105,9 @@ img {
   font-family: "Roboto", sans-serif;
   color: black;
   font-size: 1.2rem; }
+  @media (max-width: 599px) {
+    .row-article__text, .card__blurb {
+      font-size: 0.8rem; } }
   @media (min-width: 2500px) {
     .row-article__text, .card__blurb {
       font-size: 2.8rem; } }
@@ -119,6 +122,9 @@ img {
   font-family: "Inter", sans-serif;
   color: #448cb4;
   font-size: 2rem; }
+  @media (max-width: 599px) {
+    .row-article__head {
+      font-size: 1.5rem; } }
 
 .card__title {
   font-family: "Inter", sans-serif;
@@ -260,6 +266,9 @@ img {
 
 .row-article__main, .row-article__img {
   margin: 3rem; }
+  @media (max-width: 599px) {
+    .row-article__main, .row-article__img {
+      margin: 1rem 2rem; } }
 
 .row-article__main {
   flex-basis: 65%; }
@@ -272,6 +281,9 @@ img {
 
 .row-article__text {
   margin-top: 1.5rem; }
+  @media (max-width: 599px) {
+    .row-article__text {
+      margin-top: 0.75rem; } }
 
 .container--grey {
   background-color: #f0f3f5; }

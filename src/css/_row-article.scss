@@ -4,6 +4,9 @@
 
 .row-article__main, .row-article__img{
     margin: 3rem;
+    @include phone {
+        margin: 1rem 2rem;
+    }
 }
 
 .row-article__main {
@@ -20,6 +23,9 @@
 
 .row-article__text{
     margin-top: 1.5rem;
+    @include phone {
+        margin-top: 0.75rem;
+    }
 }
 
 .container--grey{
