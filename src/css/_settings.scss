@@ -33,6 +33,11 @@ img {
     object-fit: cover;
 }
 
+.anchor {
+  position: relative;
+  padding-top: 4rem;
+}
+
 @mixin phone {
     @media (max-width: 599px) { @content; }
   }

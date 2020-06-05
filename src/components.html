@@ -53,7 +53,8 @@
     </div>
 
     <!-- Header and article, the: 'Row-article'-->
-    <div id="about">
+    <span class="anchor" id="about"></span> <!-- span with link so article is centred when linked to-->
+    <div>
         <article class="row-article">
             <figure class="row-article__img">
                 <img src="../images/Maddy-small.jpg" alt="Photograph of Maddy McMahon"/>
@@ -69,8 +70,9 @@
             </div>
         </article>
     </div>
-
-    <div class="container--grey" id="skills">
+    
+    <span class="anchor" id="skills"></span> <!-- span with link so article is centred when linked to-->
+    <div class="container--grey">
         <article class="row-article">
             <div class="row-article__main">
                 <header class="row-article__head">
@@ -88,10 +90,11 @@
     </div>
     
     <!-- Projects cards -->
+    <span class="anchor" id="projects"></span> <!-- span with link so article is centred when linked to-->
     <div class="card__title">
          <h1>Projects</h1>
     </div>
-    <div class="container--cards" id="projects">
+    <div class="container--cards">
         <article class="card">
             <figure class="card__img">
                  <img src="../images/vet-practice-lilac.jpeg" alt="Screenshot of a practice 'vet practice' laravel project"> <!-- screenshot obtained from viewing the app in firefox responsive section set to galaxy S9 -->
@@ -138,7 +141,8 @@
         </article>       
     </div>
 
-    <footer class="footer" id="contact">
+    <span class="anchor" id="contact"></span> <!-- span with link so article is centred when linked to-->
+    <footer class="footer">
         <div class="footer__row">
             <div class="footer__contact">
                 <h4 class="footer__text-large">Contact me</h4>
@@ -153,12 +157,7 @@
             <span class="footer__text-tiny">&copy Maddy McMahon 2020</span>
         </div>
     </footer>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script>
-        var scroll = new SmoothScroll('a[href*="#"]', {
-            speed:  350
-        } );
-    </script>
+    <script src="js/smooth-scroll.min.js"></script> -->
 </body>
 
 </html>

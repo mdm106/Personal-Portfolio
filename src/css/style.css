@@ -57,6 +57,10 @@ body, html {
 img {
   object-fit: cover; }
 
+.anchor {
+  position: relative;
+  padding-top: 4rem; }
+
 img {
   display: block;
   width: 100%;
