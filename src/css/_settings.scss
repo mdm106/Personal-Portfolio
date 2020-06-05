@@ -36,6 +36,9 @@ img {
 .anchor {
   position: relative;
   padding-top: 4rem;
+  @include phone {
+    padding-top: 1rem;
+  }
 }
 
 @mixin phone {

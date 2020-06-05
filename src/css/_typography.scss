@@ -80,6 +80,11 @@
     text-align: center;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
+    @include phone {
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 }
 
 .card__head{
@@ -87,6 +92,10 @@
         font-family: $inter-font;
         color: $light-steel-blue;
         font-size: 1.4rem;
+        @include phone {
+            font-size: 1rem;
+            padding: 0.3rem; 
+        }
         text-decoration: none;
         display: inline-block;
         padding: 0.5rem;

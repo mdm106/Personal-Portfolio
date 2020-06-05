@@ -134,6 +134,11 @@ img {
   text-align: center;
   padding-top: 1.2rem;
   padding-bottom: 1.2rem; }
+  @media (max-width: 599px) {
+    .card__title {
+      font-size: 1.5rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem; } }
 
 .card__head {
   text-align: center;
@@ -145,6 +150,10 @@ img {
     text-decoration: none;
     display: inline-block;
     padding: 0.5rem; }
+    @media (max-width: 599px) {
+      .card__head a {
+        font-size: 1rem;
+        padding: 0.3rem; } }
   .card__head a:hover {
     background-color: #448cb4;
     color: white;
@@ -328,6 +337,9 @@ img {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 50%; }
+  @media (max-width: 599px) {
+    .card {
+      padding: 1.2rem; } }
 
 .card__head {
   width: 100%;
@@ -340,6 +352,9 @@ img {
   padding: 1rem;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px; }
+  @media (max-width: 599px) {
+    .card__blurb {
+      padding: 0.7rem; } }
 
 .card__img img {
   border-top-right-radius: 15px;
