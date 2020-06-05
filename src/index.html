@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Junior web developer Maddy McMahon's personal portfolio website">
+    <title>Maddy McMahon junior web developer</title>
+
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+
+    <link rel="stylesheet" href="css/style.css"> <!-- change to style.min.css at end of repro -->
+    <script src="https://kit.fontawesome.com/da4cbb9308.js" crossorigin="anonymous"></script>
+    
+    <!-- <script src="scripts.js" defer></script> -->
+
+</head>
+
+<body>
+    <!-- Nav Menu -->
+    <nav class="navbar">
+            <div class="navbar__header">
+            <!-- 'Brand' style heading -->
+                <h1 class="navbar__brand">
+                    <a href="#top"><span>&#60</span>Maddy McMahon<span>&#62</span></a>
+                </h1>
+            </div>
+            <div class="navbar__content">
+                <ul class="navbar__list">
+                    <li class="navbar__item" >
+                        <a href="#about" >About</a>
+                    </li>
+                    <li class="navbar__item" >
+                        <a class="" href="#skills" >Skills</a>
+                    </li>
+                    <li class="navbar__item" >
+                        <a class="" href="#projects" >Projects</a>
+                    </li>
+                    <li class="navbar__item" >
+                        <a class="" href="#contact" >Contact</a>
+                    </li>
+                </ul>
+            </div> 
+            <!-- Top Navigation Menu -->
+            <div class="navbar__mobile">
+                <a href="javascript:void(0);" class="navbar__icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div> 
+            <!-- Navigation links (hidden by default) -->
+            
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->       
+    </nav>
+
+    <div class="navbar__mobile_menu hidden" id="mobile-links">
+        <ul class="navbar__list_mobile">
+            <li class="navbar__item">
+                <a href="#about">About</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#skills">Skills</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#projects">Projects</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--Hero Image and header-->
+    <div class="hero">
+        <div class="hero__container">
+            <h1 class="hero__heading">Maddy McMahon<br>Junior web developer</h1>
+        </div>
+    </div>
+
+    <!-- Header and article, the: 'Row-article'-->
+    <span class="anchor" id="about"></span> <!-- span with link so article is centred when linked to-->
+    <div>
+        <article class="row-article">
+            <figure class="row-article__img">
+                <img src="../images/Maddy-small.jpg" alt="Photograph of Maddy McMahon"/>
+            </figure>
+            <div class="row-article__main">
+                <header class="row-article__head">
+                    <h1>About me</h1>
+                </header>
+                <p class="row-article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos nulla reprehenderit vel ea illum consequatur provident doloribus voluptas numquam minima ipsam laborum, exercitationem tempore totam sapiente debitis dolorem accusamus.
+                </p>
+                <p class="row-article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos nulla reprehenderit vel ea illum consequatur provident doloribus voluptas numquam minima ipsam laborum, exercitationem tempore totam sapiente debitis dolorem accusamus.
+                </p>
+            </div>
+        </article>
+    </div>
+    
+    <span class="anchor" id="skills"></span> <!-- span with link so article is centred when linked to-->
+    <div class="container--grey">
+        <article class="row-article">
+            <div class="row-article__main">
+                <header class="row-article__head">
+                    <h1>Skills</h1>
+                </header>
+                <p class="row-article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos nulla reprehenderit vel ea illum consequatur provident doloribus voluptas numquam minima ipsam laborum, exercitationem tempore totam sapiente debitis dolorem accusamus.
+                </p>
+                <p class="row-article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos nulla reprehenderit vel ea illum consequatur provident doloribus voluptas numquam minima ipsam laborum, exercitationem tempore totam sapiente debitis dolorem accusamus.
+                </p>
+            </div>
+            <figure class="row-article__img">
+                <img src="../images/coding-small.jpg" alt="Photograph of screen of computer code"/>
+            </figure>
+        </article>
+    </div>
+    
+    <!-- Projects cards -->
+    <span class="anchor" id="projects"></span> <!-- span with link so article is centred when linked to-->
+    <div class="card__title">
+         <h1>Projects</h1>
+    </div>
+    <div class="container--cards">
+        <article class="card">
+            <figure class="card__img">
+                 <img src="../images/vet-practice-lilac.jpeg" alt="Screenshot of a practice 'vet practice' laravel project"> <!-- screenshot obtained from viewing the app in firefox responsive section set to galaxy S9 -->
+            </figure>
+            <header class="card__head">
+                <h2 class="card__head_text">
+                    <a href="">Link to project</a>
+                </h2>
+            </header>
+            <p class="card__blurb">Description of the project and the technology used to produce it. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article class="card">
+            <figure class="card__img">
+                 <img src="../images/vet-practice-lilac.jpeg" alt="Screenshot of a practice 'vet practice' laravel project"> <!-- screenshot obtained from viewing the app in firefox responsive section set to galaxy S9 -->
+            </figure>
+            <header class="card__head">
+                <h2 class="card__head_text">
+                    <a href="">Link to project</a>
+                </h2>
+            </header>
+            <p class="card__blurb">Description of the project and the technology used to produce it. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article class="card">
+            <figure class="card__img">
+                 <img src="../images/vet-practice-lilac.jpeg" alt="Screenshot of a practice 'vet practice' laravel project"> <!-- screenshot obtained from viewing the app in firefox responsive section set to galaxy S9 -->
+            </figure>
+            <header class="card__head">
+                <h2 class="card__head_text">
+                    <a href="">Link to project</a>
+                </h2>
+            </header>
+            <p class="card__blurb">Description of the project and the technology used to produce it. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </article>   
+        <article class="card">
+            <figure class="card__img">
+                 <img src="../images/vet-practice-lilac.jpeg" alt="Screenshot of a practice 'vet practice' laravel project"> <!-- screenshot obtained from viewing the app in firefox responsive section set to galaxy S9 -->
+            </figure>
+            <header class="card__head">
+                <h2 class="card__head_text">
+                    <a href="">Link to project</a>
+                </h2>
+            </header>
+            <p class="card__blurb">Description of the project and the technology used to produce it. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </article>       
+    </div>
+
+    <footer class="footer">
+        <div class="footer__row">
+            <div class="footer__contact">
+                <h4 class="footer__text-large">Contact me</h4>
+                <p class="footer__text-small">Email: mads.mcmahon@gmail.com</p>
+            </div>
+            <div class="footer__socials">
+                <a class="footer__links" href=""><i class="fab fa-linkedin"></i></a>
+                <a class="footer__links" href="https://github.com/mdm106"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer__copy">
+            <span class="footer__text-tiny">&copy Maddy McMahon 2020</span>
+        </div>
+        <span class="anchor-footer" id="contact"></span>
+    </footer>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("mobile-links");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+            x.classList.add("hidden");
+            x.classList.remove("shown");
+            } else {
+            x.style.display = "block";
+            x.classList.remove("hidden");
+            x.classList.add("shown");
+            }
+        }
+    </script>
+</body>
+
+</html>
