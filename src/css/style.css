@@ -152,6 +152,9 @@ img {
   background-color: white;
   position: fixed;
   width: 100%; }
+  @media (max-width: 599px) {
+    .navbar {
+      position: relative; } }
 
 .navbar__content {
   align-self: center; }

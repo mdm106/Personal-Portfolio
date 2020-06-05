@@ -6,6 +6,9 @@
     background-color: white;
     position: fixed;
     width: 100%;
+    @include phone {
+        position: relative;
+    }
 }
 
 .navbar__content {
