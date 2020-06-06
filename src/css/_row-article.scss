@@ -2,7 +2,7 @@
     @include central-feature;
 }
 
-.row-article__main, .row-article__img{
+.row-article__main, .row-article__fig { 
     margin: 3rem;
     @include phone {
         margin: 1rem 2rem;
@@ -13,11 +13,17 @@
     flex-basis: 65%;
 }
 
-.row-article__img{
+.row-article__fig{
     flex-basis: 35%;
-}
+    &--grey {
+        @extend .row-article__fig;
+        @include phone {
+            display: none;
+        }
+    } 
+}  
 
-.row-article__img img{
+.row-article__img {
     border-radius: 15px;
 }
 
@@ -31,6 +37,3 @@
 .container--grey{
     background-color: $grey-bg;
 }
-
-
-
