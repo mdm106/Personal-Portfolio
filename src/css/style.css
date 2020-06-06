@@ -194,8 +194,12 @@ img {
     .navbar {
       position: relative;
       padding: 1rem; } }
+  @media (min-width: 600px) {
+    .navbar {
+      position: relative;
+      padding: 1rem; } }
 
-@media (min-width: 599px) {
+@media (min-width: 900px) {
   .navbar__mobile {
     display: none; } }
 
@@ -213,7 +217,7 @@ img {
 
 .navbar__content {
   align-self: center; }
-  @media (max-width: 599px) {
+  @media (max-width: 899px) {
     .navbar__content {
       display: none; } }
 
@@ -379,41 +383,41 @@ img {
 .footer {
   background-color: #448cb4; }
 
-@media (min-width: 599px) {
+@media (min-width: 900px) {
   .footer__row {
     margin: auto;
     display: flex;
     justify-content: space-between;
     padding-top: 2rem;
     padding-bottom: 2rem; } }
-  @media (min-width: 599px) and (max-width: 599px) {
+  @media (min-width: 900px) and (max-width: 599px) {
     .footer__row {
       flex-direction: column;
       width: 100%; } }
-  @media (min-width: 599px) and (min-width: 600px) {
+  @media (min-width: 900px) and (min-width: 600px) {
     .footer__row {
       width: 90%;
       flex-direction: column; } }
-  @media (min-width: 599px) and (min-width: 900px) {
+  @media (min-width: 900px) and (min-width: 900px) {
     .footer__row {
       width: 90%;
       flex-direction: row; } }
-  @media (min-width: 599px) and (min-width: 1200px) {
+  @media (min-width: 900px) and (min-width: 1200px) {
     .footer__row {
       width: 80%;
       flex-direction: row; } }
-  @media (min-width: 599px) and (min-width: 1800px) {
+  @media (min-width: 900px) and (min-width: 1800px) {
     .footer__row {
       width: 80%;
       max-width: 1200px;
       flex-direction: row; } }
-  @media (min-width: 599px) and (min-width: 2500px) {
+  @media (min-width: 900px) and (min-width: 2500px) {
     .footer__row {
       width: 80%;
       max-width: 2000px;
       flex-direction: row; } }
 
-@media (max-width: 599px) {
+@media (max-width: 899px) {
   .footer__row {
     padding-top: 0.7rem;
     padding-bottom: 0.5rem; } }
@@ -421,7 +425,7 @@ img {
 .footer__socials {
   padding-right: 1.5rem;
   align-self: center; }
-  @media (max-width: 599px) {
+  @media (max-width: 899px) {
     .footer__socials {
       text-align: center;
       padding: 0.5rem; } }

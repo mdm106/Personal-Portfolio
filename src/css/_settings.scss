@@ -33,11 +33,14 @@ img {
     object-fit: cover;
 }
 
-@mixin phone {
+  @mixin phone {
     @media (max-width: 599px) { @content; }
   }
-  @mixin non-phone {
-    @media (min-width: 599px) { @content; }
+  @mixin mobile-nav {
+    @media (max-width: 899px){ @content; }
+  }
+  @mixin normal-nav {
+    @media (min-width: 900px) { @content; }
   }
   @mixin tablet-portrait {
     @media (min-width: 600px) { @content; }

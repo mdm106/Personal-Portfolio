@@ -10,10 +10,14 @@
         position: relative;
         padding: 1rem;
     }
+    @include tablet-portrait {
+        position: relative;
+        padding: 1rem;
+    }
 }
 
 .navbar__mobile {
-    @include non-phone {
+    @include normal-nav {
         display: none;
     }
 }
@@ -35,7 +39,7 @@
 
 .navbar__content {
     align-self: center;
-    @include phone {
+    @include mobile-nav {
         display: none;
     }
 }

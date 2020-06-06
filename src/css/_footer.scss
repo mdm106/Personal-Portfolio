@@ -3,13 +3,13 @@
 }
 
 .footer__row {
-    @include non-phone {
+    @include normal-nav {
         @include central-feature;
         justify-content: space-between;
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
-    @include phone {
+    @include mobile-nav {
         padding-top: 0.7rem;
         padding-bottom: 0.5rem;
     }
@@ -18,7 +18,7 @@
 .footer__socials {
     padding-right: 1.5rem;
     align-self: center;
-    @include phone {
+    @include mobile-nav {
         text-align: center;
         padding: 0.5rem;
     }
