@@ -41,4 +41,7 @@
         padding: 0.5rem;
         font-size: 2rem;
     }
+    @include large-desktop {
+        font-size: 3.8rem;
+    }
 }

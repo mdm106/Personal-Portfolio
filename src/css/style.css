@@ -220,13 +220,25 @@ img {
     @media (max-width: 599px) {
       .footer__text-large {
         font-size: 1.5rem; } }
+    @media (min-width: 1600px) {
+      .footer__text-large {
+        font-size: 2.5rem; } }
   .footer__text-small {
     font-size: 1.5rem; }
     @media (max-width: 599px) {
       .footer__text-small {
         font-size: 1.2rem; } }
+    @media (min-width: 1600px) {
+      .footer__text-small {
+        font-size: 2rem; } }
   .footer__text-tiny {
     font-size: 0.8rem; }
+    @media (min-width: 1200px) {
+      .footer__text-tiny {
+        font-size: 1rem; } }
+    @media (min-width: 1600px) {
+      .footer__text-tiny {
+        font-size: 1.2rem; } }
 
 .navbar {
   margin: auto;
@@ -560,3 +572,6 @@ img {
     .footer__links {
       padding: 0.5rem;
       font-size: 2rem; } }
+  @media (min-width: 1600px) {
+    .footer__links {
+      font-size: 3.8rem; } }
