@@ -61,6 +61,14 @@ img {
     @media (min-width: 2500px) { @content; }
   }
 
+  @mixin floated {
+    @media (max-width: 1199px) { @content; }
+  }
+
+  @mixin non-floated {
+    @media (min-width: 1200px) { @content; }
+  }
+
 @mixin central-feature {
     margin: auto;
     display: flex;

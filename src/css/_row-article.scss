@@ -1,8 +1,29 @@
 .row-article{
-    @include central-feature;
+    margin: auto;
+    @include floated {
+        display: flow-root;
+        width: 100%;
+        overflow: auto;
+    }
+    @include desktop {  
+        display: flex;    
+        width: 80%;
+        flex-direction: row;
+    }
+    @include large-desktop {    
+        width: 80%;
+        max-width: 1400px;
+        flex-direction: row; 
+    }
+    @include vlarge-desktop {    
+        width: 80%;
+        max-width: 2000px; 
+        flex-direction: row;
+    }
 }
 
-.row-article__main, .row-article__fig { 
+
+.row-article__main, .row-article__fig, .row-article__fig--grey{ 
     @include phone {
         margin: 1rem 2rem;
     }
@@ -15,22 +36,36 @@
 }
 
 .row-article__main {
-    flex-basis: 65%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include non-floated {
+        flex-basis: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .row-article__container {
     margin: 0;
+    
 }
 
 .row-article__fig{
-    flex-basis: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include non-floated {
+        flex-basis: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    @include floated {
+        float: left;
+        width: 30%;
+    }
 }  
+
+.row-article__fig--grey {
+    float: right;
+    width: 30%;
+}
 
 .row-article__img {
     border-radius: 15px;
