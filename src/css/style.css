@@ -104,12 +104,17 @@ img {
   color: #448cb4;
   text-decoration: none;
   font-family: "Courier Prime", monospace;
-  vertical-align: bottom;
-  font-size: 1.7rem; }
+  vertical-align: bottom; }
   @media (max-width: 599px) {
     .navbar__brand a {
       font-size: 1.2rem;
       line-height: 1.5rem; } }
+  @media (min-width: 600px) {
+    .navbar__brand a {
+      font-size: 1.7rem; } }
+  @media (min-width: 1200px) {
+    .navbar__brand a {
+      font-size: 2.2rem; } }
   .navbar__brand a span {
     color: grey; }
 
@@ -141,14 +146,16 @@ img {
 
 .row-article__head {
   font-family: "Inter", sans-serif;
-  color: #448cb4;
-  font-size: 2rem; }
+  color: #448cb4; }
   @media (max-width: 599px) {
     .row-article__head {
       font-size: 1.5rem; } }
-  @media (min-width: 1600px) {
+  @media (min-width: 600px) {
     .row-article__head {
-      font-size: 1.8rem; } }
+      font-size: 1.6rem; } }
+  @media (min-width: 1200px) {
+    .row-article__head {
+      font-size: 2rem; } }
   @media (min-width: 2500px) {
     .row-article__head {
       font-size: 2.7rem; } }
