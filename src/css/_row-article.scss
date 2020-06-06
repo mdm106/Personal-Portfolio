@@ -15,6 +15,9 @@
 
 .row-article__fig{
     flex-basis: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     &--grey {
         @extend .row-article__fig;
         @include phone {
@@ -25,6 +28,7 @@
 
 .row-article__img {
     border-radius: 15px;
+    margin: 0;
 }
 
 .row-article__text{
