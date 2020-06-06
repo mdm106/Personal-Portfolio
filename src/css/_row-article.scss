@@ -3,9 +3,14 @@
 }
 
 .row-article__main, .row-article__fig { 
-    margin: 3rem;
     @include phone {
         margin: 1rem 2rem;
+    }
+    @include tablet-portrait {
+        margin: 2rem;
+    }
+    @include small-desktop {
+        margin: 3rem;
     }
 }
 
