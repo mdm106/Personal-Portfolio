@@ -82,9 +82,12 @@
     <span class="anchor" id="about"></span> <!-- span with link so article is centred when linked to-->
     <div>
         <article class="row-article">
-            <figure class="row-article__fig">
-                <img class="row-article__img" src="../images/Maddy-small.jpg" alt="Photograph of Maddy McMahon"/>
-            </figure>
+            <picture class="row-article__fig">
+                <source
+                media="(max-width: 599px)" srcset="../images/Maddy-formobile.jpeg">
+                <source  media="(min-width:600px)" srcset="../images/Maddy-small.jpg">
+                <img class="row-article__img" src="../images/Maddy-small.jpg" alt="A photograph of Maddy McMahon">
+            </picture>
             <div class="row-article__main">
                 <div class="row-article__container">
                     <header class="row-article__head">
@@ -113,9 +116,12 @@
                     </p>
                 </div>
             </div>
-            <figure class="row-article__fig--grey">
-                <img class="row-article__img" src="../images/coding-small.jpg" alt="Photograph of screen of computer code"/>
-            </figure>
+            <picture class="row-article__fig">
+                <source
+                media="(max-width: 599px)" srcset="../images/coding-formobile.jpg">
+                <source  media="(min-width:600px)" srcset="../images/coding-small.jpg">
+                <img class="row-article__img" src="../images/coding-small.jpg" alt="A photograph of a screen of computer code">
+            </picture>
         </article>
     </div>
     

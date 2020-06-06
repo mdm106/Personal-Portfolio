@@ -30,12 +30,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    &--grey {
-        @extend .row-article__fig;
-        @include phone {
-            display: none;
-        }
-    } 
 }  
 
 .row-article__img {
