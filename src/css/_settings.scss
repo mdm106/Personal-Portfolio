@@ -33,6 +33,8 @@ img {
     object-fit: cover;
 }
 
+//media queries for resposivity
+
   @mixin phone {
     @media (max-width: 599px) { @content; }
   }
@@ -61,6 +63,7 @@ img {
     @media (min-width: 2500px) { @content; }
   }
 
+  //to use for the row-article, to determine if float or flex
   @mixin floated {
     @media (max-width: 1199px) { @content; }
   }
@@ -68,7 +71,7 @@ img {
   @mixin non-floated {
     @media (min-width: 1200px) { @content; }
   }
-
+//used for all centralised features
 @mixin central-feature {
     margin: auto;
     display: flex;
@@ -100,7 +103,7 @@ img {
         flex-direction: row;
     }
 }
-
+//used for centralised nav and footer
 @mixin central-nav {
   margin: auto;
   display: flex;
@@ -124,7 +127,7 @@ img {
       max-width: 2000px; 
   }
 }
-
+//to allow elements to centralise on screen when linked to
 .anchor {
   position: relative;
   padding-top: 4rem;
