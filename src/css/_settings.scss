@@ -55,7 +55,7 @@ img {
     @media (min-width: 1200px) { @content; }
   }
   @mixin large-desktop {
-    @media (min-width: 1800px) { @content; }
+    @media (min-width: 1600px) { @content; }
   }
   @mixin vlarge-desktop {
     @media (min-width: 2500px) { @content; }
