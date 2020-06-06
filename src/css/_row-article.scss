@@ -16,6 +16,13 @@
 
 .row-article__main {
     flex-basis: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-article__container {
+    margin: 0;
 }
 
 .row-article__fig{
