@@ -1,19 +1,10 @@
 .navbar {
-    display: flex;
+    @include central-nav;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.5rem 5rem;
     background-color: white;
-    position: fixed;
-    width: 100%;
-    @include phone {
-        position: relative;
-        padding: 1rem;
-    }
-    @include tablet-portrait {
-        position: relative;
-        padding: 1rem;
-    }
+    position: relative;
+    padding: 1rem;    
 }
 
 .navbar__mobile {
@@ -47,13 +38,7 @@
 .navbar__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    @include tablet-landscape {
-        width: 50vw;
-    }
-    @include large-desktop {
-        width: 45vw;
-    }    
+    justify-content: space-between;  
 }
 
 

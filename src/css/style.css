@@ -83,6 +83,15 @@ img {
   @media (max-width: 599px) {
     .navbar__item a {
       font-size: 1rem; } }
+  @media (min-width: 900px) {
+    .navbar__item a {
+      padding: 1rem; } }
+  @media (min-width: 1200px) {
+    .navbar__item a {
+      padding: 1.5rem; } }
+  @media (min-width: 1600px) {
+    .navbar__item a {
+      padding: 2rem; } }
 
 .navbar__item a:hover {
   text-decoration: underline; }
@@ -207,21 +216,32 @@ img {
     font-size: 0.8rem; }
 
 .navbar {
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1.5rem 5rem;
   background-color: white;
-  position: fixed;
-  width: 100%; }
+  position: relative;
+  padding: 1rem; }
   @media (max-width: 599px) {
     .navbar {
-      position: relative;
-      padding: 1rem; } }
+      width: 100%; } }
   @media (min-width: 600px) {
     .navbar {
-      position: relative;
-      padding: 1rem; } }
+      width: 90%; } }
+  @media (min-width: 900px) {
+    .navbar {
+      width: 90%; } }
+  @media (min-width: 1200px) {
+    .navbar {
+      width: 85%; } }
+  @media (min-width: 1600px) {
+    .navbar {
+      width: 85%;
+      max-width: 1200px; } }
+  @media (min-width: 2500px) {
+    .navbar {
+      max-width: 2000px; } }
 
 @media (min-width: 900px) {
   .navbar__mobile {
@@ -249,12 +269,6 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
-  @media (min-width: 900px) {
-    .navbar__list {
-      width: 50vw; } }
-  @media (min-width: 1600px) {
-    .navbar__list {
-      width: 45vw; } }
 
 @media (max-width: 599px) {
   .hero__container {
@@ -354,7 +368,7 @@ img {
   @media (min-width: 1600px) {
     .row-article {
       width: 80%;
-      max-width: 1200px;
+      max-width: 1400px;
       flex-direction: row; } }
   @media (min-width: 2500px) {
     .row-article {
@@ -430,7 +444,7 @@ img {
   @media (min-width: 1600px) {
     .container--cards {
       width: 80%;
-      max-width: 1200px;
+      max-width: 1400px;
       flex-direction: row; } }
   @media (min-width: 2500px) {
     .container--cards {
@@ -497,7 +511,7 @@ img {
   @media (min-width: 900px) and (min-width: 1600px) {
     .footer__row {
       width: 80%;
-      max-width: 1200px;
+      max-width: 1400px;
       flex-direction: row; } }
   @media (min-width: 900px) and (min-width: 2500px) {
     .footer__row {
