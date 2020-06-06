@@ -133,6 +133,7 @@ img {
   padding-top: 4rem;
   @include phone {
     padding-top: 1rem;
+    visibility: hidden;
   }
 }
 

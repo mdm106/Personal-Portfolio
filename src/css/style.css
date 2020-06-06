@@ -62,7 +62,8 @@ img {
   padding-top: 4rem; }
   @media (max-width: 599px) {
     .anchor {
-      padding-top: 1rem; } }
+      padding-top: 1rem;
+      visibility: hidden; } }
 
 .anchor-footer {
   position: relative; }
