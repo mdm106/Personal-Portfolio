@@ -224,8 +224,13 @@ img {
 .navbar__list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 40vw; }
+  justify-content: space-between; }
+  @media (min-width: 900px) {
+    .navbar__list {
+      width: 50vw; } }
+  @media (min-width: 1800px) {
+    .navbar__list {
+      width: 45vw; } }
 
 .hero__container {
   padding-left: 5rem;
