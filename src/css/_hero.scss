@@ -3,8 +3,10 @@
     padding-top: 10rem;
     padding-bottom: 10rem;
     @include phone {
-        padding: 4rem;
-        margin: auto;
+        padding-right: 15vw;
+        padding-left: 15vw;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
 }
 

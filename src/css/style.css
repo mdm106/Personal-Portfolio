@@ -233,8 +233,10 @@ img {
   padding-bottom: 10rem; }
   @media (max-width: 599px) {
     .hero__container {
-      padding: 4rem;
-      margin: auto; } }
+      padding-right: 15vw;
+      padding-left: 15vw;
+      padding-top: 4rem;
+      padding-bottom: 4rem; } }
 
 .hero__heading {
   font-family: "Roboto", sans-serif;
