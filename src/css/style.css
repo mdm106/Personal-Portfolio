@@ -85,13 +85,16 @@ img {
       font-size: 1rem; } }
   @media (min-width: 900px) {
     .navbar__item a {
+      font-size: 1.6rem;
       padding: 1rem; } }
   @media (min-width: 1200px) {
     .navbar__item a {
-      padding: 1.5rem; } }
-  @media (min-width: 1600px) {
+      font-size: 1.8rem;
+      padding: 1.2rem; } }
+  @media (min-width: 2500px) {
     .navbar__item a {
-      padding: 2rem; } }
+      font-size: 2.2rem;
+      padding: 1.6rem; } }
 
 .navbar__item a:hover {
   text-decoration: underline; }
@@ -114,7 +117,10 @@ img {
       font-size: 1.7rem; } }
   @media (min-width: 1200px) {
     .navbar__brand a {
-      font-size: 2.2rem; } }
+      font-size: 2rem; } }
+  @media (min-width: 2500px) {
+    .navbar__brand a {
+      font-size: 2.4rem; } }
   .navbar__brand a span {
     color: grey; }
 
