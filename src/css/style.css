@@ -260,10 +260,10 @@ img {
       width: 90%; } }
   @media (min-width: 1200px) {
     .navbar {
-      width: 85%; } }
+      width: 80%; } }
   @media (min-width: 1600px) {
     .navbar {
-      width: 85%;
+      width: 70%;
       max-width: 1200px; } }
   @media (min-width: 2500px) {
     .navbar {
@@ -379,28 +379,24 @@ img {
       display: flow-root;
       width: 100%;
       overflow: auto; } }
+  @media (min-width: 900px) {
+    .row-article, .row-article--grey {
+      width: 90%; } }
+  @media (min-width: 1000px) {
+    .row-article, .row-article--grey {
+      width: 75%; } }
   @media (min-width: 1200px) {
     .row-article, .row-article--grey {
       display: flex;
-      width: 80%;
-      flex-direction: row; } }
+      width: 70%; } }
   @media (min-width: 1600px) {
     .row-article, .row-article--grey {
-      width: 80%;
-      max-width: 1400px;
-      flex-direction: row; } }
+      width: 60%;
+      max-width: 1400px; } }
   @media (min-width: 2500px) {
     .row-article, .row-article--grey {
-      width: 80%;
-      max-width: 2000px;
-      flex-direction: row; } }
+      max-width: 2000px; } }
   @media (min-width: 1200px) {
-    .row-article--grey {
-      flex-direction: row-reverse; } }
-  @media (min-width: 1600px) {
-    .row-article--grey {
-      flex-direction: row-reverse; } }
-  @media (min-width: 2500px) {
     .row-article--grey {
       flex-direction: row-reverse; } }
 
@@ -473,26 +469,23 @@ img {
       width: 100%; } }
   @media (min-width: 600px) {
     .container--cards {
-      width: 90%;
-      flex-direction: column; } }
+      width: 90%; } }
   @media (min-width: 900px) {
     .container--cards {
-      width: 90%;
       flex-direction: row; } }
+  @media (min-width: 1000px) {
+    .container--cards {
+      width: 75%; } }
   @media (min-width: 1200px) {
     .container--cards {
-      width: 80%;
-      flex-direction: row; } }
+      width: 70%; } }
   @media (min-width: 1600px) {
     .container--cards {
-      width: 80%;
-      max-width: 1400px;
-      flex-direction: row; } }
+      width: 60%;
+      max-width: 1400px; } }
   @media (min-width: 2500px) {
     .container--cards {
-      width: 80%;
-      max-width: 2000px;
-      flex-direction: row; } }
+      max-width: 2000px; } }
 
 .card {
   display: flex;
@@ -540,26 +533,23 @@ img {
       width: 100%; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .footer__row {
-      width: 90%;
-      flex-direction: column; } }
+      width: 90%; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .footer__row {
-      width: 90%;
       flex-direction: row; } }
+  @media (min-width: 900px) and (min-width: 1000px) {
+    .footer__row {
+      width: 75%; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .footer__row {
-      width: 80%;
-      flex-direction: row; } }
+      width: 70%; } }
   @media (min-width: 900px) and (min-width: 1600px) {
     .footer__row {
-      width: 80%;
-      max-width: 1400px;
-      flex-direction: row; } }
+      width: 60%;
+      max-width: 1400px; } }
   @media (min-width: 900px) and (min-width: 2500px) {
     .footer__row {
-      width: 80%;
-      max-width: 2000px;
-      flex-direction: row; } }
+      max-width: 2000px; } }
 
 @media (max-width: 899px) {
   .footer__row {

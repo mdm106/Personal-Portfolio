@@ -5,30 +5,26 @@
         width: 100%;
         overflow: auto;
     }
+    @include tablet-landscape {
+        width: 90%;
+    }
+    @include small-desktop {
+        width: 75%;
+    }
     @include desktop {  
         display: flex;    
-        width: 80%;
-        flex-direction: row;
+        width: 70%;
     }
     @include large-desktop {    
-        width: 80%;
+        width: 60%;
         max-width: 1400px;
-        flex-direction: row; 
     }
     @include vlarge-desktop {    
-        width: 80%;
         max-width: 2000px; 
-        flex-direction: row;
     }
     &--grey {
     @extend .row-article;
     @include desktop {  
-        flex-direction: row-reverse;
-    }
-    @include large-desktop {    
-        flex-direction: row-reverse; 
-    }
-    @include vlarge-desktop {    
         flex-direction: row-reverse;
     }
 }
