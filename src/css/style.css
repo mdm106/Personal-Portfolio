@@ -535,24 +535,20 @@ img {
     padding-bottom: 2rem; } }
   @media (min-width: 900px) and (max-width: 599px) {
     .footer__row {
-      flex-direction: column;
       width: 100%; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .footer__row {
       width: 90%; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .footer__row {
-      flex-direction: row; } }
-  @media (min-width: 900px) and (min-width: 1000px) {
-    .footer__row {
-      width: 75%; } }
+      width: 90%; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .footer__row {
-      width: 70%; } }
+      width: 80%; } }
   @media (min-width: 900px) and (min-width: 1600px) {
     .footer__row {
-      width: 60%;
-      max-width: 1400px; } }
+      width: 70%;
+      max-width: 1200px; } }
   @media (min-width: 900px) and (min-width: 2500px) {
     .footer__row {
       max-width: 2000px; } }

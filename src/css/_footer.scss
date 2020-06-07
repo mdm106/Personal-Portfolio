@@ -4,7 +4,7 @@
 
 .footer__row {
     @include normal-nav {
-        @include central-feature;
+        @include central-nav;
         justify-content: space-between;
         padding-top: 2rem;
         padding-bottom: 2rem;
