@@ -459,8 +459,6 @@ img {
 .container--cards {
   margin: auto;
   display: flex;
-  flex-flow: row wrap;
-  display: flex;
   justify-content: space-around; }
   @media (max-width: 599px) {
     .container--cards {
@@ -468,10 +466,12 @@ img {
       width: 100%; } }
   @media (min-width: 600px) {
     .container--cards {
+      flex-direction: column;
       width: 90%; } }
   @media (min-width: 900px) {
     .container--cards {
-      flex-direction: row; } }
+      flex-direction: row;
+      flex-flow: row wrap; } }
   @media (min-width: 1000px) {
     .container--cards {
       width: 75%; } }
@@ -485,12 +485,6 @@ img {
   @media (min-width: 2500px) {
     .container--cards {
       max-width: 2000px; } }
-  @media (min-width: 600px) {
-    .container--cards {
-      flex-direction: column; } }
-  @media (min-width: 900px) {
-    .container--cards {
-      flex-direction: row; } }
 
 .card {
   display: flex;

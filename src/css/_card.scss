@@ -1,15 +1,33 @@
 
 .container--cards{
-    @include central-feature;
-    @include tablet-portrait {
-        flex-direction: column; //to override the central feature moving to flex row at this point
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    @include phone {
+        flex-direction: column;
+        width: 100%;
+    }
+    @include tablet-portrait { 
+        flex-direction: column;   
+        width: 90%;
     }
     @include tablet-landscape {
         flex-direction: row;
+        flex-flow: row wrap;
     }
-    flex-flow: row wrap;
-    display: flex;
-    justify-content: space-around;
+    @include small-desktop {
+        width: 75%
+      }
+    @include desktop {    
+        width: 70%;
+    }
+    @include large-desktop {    
+        width: 60%;
+        max-width: 1400px;
+    }
+    @include vlarge-desktop {    
+        max-width: 2000px; 
+    }
 }
 
 
