@@ -160,23 +160,23 @@
     color: white;
     &-large {
         @extend .footer__text;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-bottom: 0.5rem;
         @include phone {
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
         @include large-desktop {
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
     }
     &-small {
         @extend .footer__text;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         @include phone {
-            font-size: 1.2rem;
+            font-size: 0.8rem;
         }
         @include large-desktop {
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
     }
     &-tiny {
