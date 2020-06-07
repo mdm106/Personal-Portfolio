@@ -581,6 +581,3 @@ img {
     .footer__links {
       padding: 0.5rem;
       font-size: 2rem; } }
-  @media (min-width: 1600px) {
-    .footer__links {
-      font-size: 3.8rem; } }
