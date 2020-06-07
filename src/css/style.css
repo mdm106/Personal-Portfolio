@@ -79,22 +79,21 @@ img {
   color: #448cb4;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem; }
+  font-family: "Roboto", sans-serif; }
   @media (max-width: 599px) {
     .navbar__item a {
       font-size: 1rem; } }
   @media (min-width: 900px) {
     .navbar__item a {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       padding: 1rem; } }
   @media (min-width: 1200px) {
     .navbar__item a {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       padding: 1.2rem; } }
   @media (min-width: 2500px) {
     .navbar__item a {
-      font-size: 2.2rem;
+      font-size: 2rem;
       padding: 1.6rem; } }
 
 .navbar__item a:hover {
@@ -121,7 +120,7 @@ img {
       font-size: 2rem; } }
   @media (min-width: 2500px) {
     .navbar__brand a {
-      font-size: 2.4rem; } }
+      font-size: 2.2rem; } }
   .navbar__brand a span {
     color: grey; }
 
@@ -140,7 +139,7 @@ img {
       font-size: 1.5rem; } }
   @media (min-width: 2500px) {
     .row-article__text, .card__blurb {
-      font-size: 2.4rem; } }
+      font-size: 1.8rem; } }
 
 .row-article__text {
   line-height: 1.5rem; }
@@ -149,7 +148,7 @@ img {
       line-height: 1.8rem; } }
   @media (min-width: 2500px) {
     .row-article__text {
-      line-height: 2.7rem; } }
+      line-height: 2.2rem; } }
 
 .row-article__head {
   font-family: "Inter", sans-serif;
@@ -159,13 +158,13 @@ img {
       font-size: 1.5rem; } }
   @media (min-width: 600px) {
     .row-article__head {
-      font-size: 1.6rem; } }
-  @media (min-width: 1200px) {
+      font-size: 1.5rem; } }
+  @media (min-width: 1600px) {
     .row-article__head {
-      font-size: 2rem; } }
+      font-size: 1.8rem; } }
   @media (min-width: 2500px) {
     .row-article__head {
-      font-size: 2.7rem; } }
+      font-size: 2.2rem; } }
 
 .card__title {
   font-family: "Inter", sans-serif;
