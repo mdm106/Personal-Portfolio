@@ -486,6 +486,12 @@ img {
   @media (min-width: 2500px) {
     .container--cards {
       max-width: 2000px; } }
+  @media (min-width: 600px) {
+    .container--cards {
+      flex-direction: column; } }
+  @media (min-width: 900px) {
+    .container--cards {
+      flex-direction: row; } }
 
 .card {
   display: flex;

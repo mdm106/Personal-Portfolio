@@ -1,6 +1,12 @@
 
 .container--cards{
     @include central-feature;
+    @include tablet-portrait {
+        flex-direction: column; //to override the central feature moving to flex row at this point
+    }
+    @include tablet-landscape {
+        flex-direction: row;
+    }
     flex-flow: row wrap;
     display: flex;
     justify-content: space-around;
