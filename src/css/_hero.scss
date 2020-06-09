@@ -1,27 +1,15 @@
 .hero__container {
     @include phone {
-        padding-right: 15vw;
-        padding-left: 15vw;
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding: 4rem 15vw; 
     }
     @include tablet-portrait {
-        padding-right: 15vw;
-        padding-left: 15vw;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding: 4rem 15vw;
     }
     @include small-desktop {
-        padding-right: 20vw;
-        padding-left: 20vw;
-        padding-top: 7rem;
-        padding-bottom: 7rem;
+        padding: 7rem 20vw;
     }
     @include large-desktop {
-        padding-right: 23vw;
-        padding-left: 23vw;
-        padding-top: 10rem;
-        padding-bottom: 10rem;
+        padding: 10rem 23vw;
     }
 }
 
