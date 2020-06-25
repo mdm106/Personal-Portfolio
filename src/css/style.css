@@ -129,7 +129,7 @@ img {
 .row-article__text, .card__blurb {
   font-family: "Roboto", sans-serif;
   color: black;
-  font-size: 1.2rem; }
+  font-size: 1rem; }
   @media (max-width: 599px) {
     .row-article__text, .card__blurb {
       font-size: 0.8rem; } }
@@ -442,6 +442,9 @@ img {
 
 .container--grey {
   background-color: #f0f3f5; }
+
+.row-article__text br {
+  line-height: 2.3rem; }
 
 .container--cards {
   margin: auto;
