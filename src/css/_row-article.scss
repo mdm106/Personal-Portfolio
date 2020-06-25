@@ -97,6 +97,10 @@
     background-color: $grey-bg;
 }
 
-.row-article__text br {
+.row-article__text--skills {
+    @extend .row-article__text;
     line-height: 2.3rem;
+    @include phone {
+        line-height: 1.6rem;
+    }
 }

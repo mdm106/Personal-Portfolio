@@ -126,27 +126,27 @@ img {
 .navbar__brand a:hover {
   text-decoration: underline; }
 
-.row-article__text, .card__blurb {
+.row-article__text, .row-article__text--skills, .card__blurb {
   font-family: "Roboto", sans-serif;
   color: black;
   font-size: 1rem; }
   @media (max-width: 599px) {
-    .row-article__text, .card__blurb {
+    .row-article__text, .row-article__text--skills, .card__blurb {
       font-size: 0.8rem; } }
   @media (min-width: 1600px) {
-    .row-article__text, .card__blurb {
+    .row-article__text, .row-article__text--skills, .card__blurb {
       font-size: 1.5rem; } }
   @media (min-width: 2500px) {
-    .row-article__text, .card__blurb {
+    .row-article__text, .row-article__text--skills, .card__blurb {
       font-size: 1.8rem; } }
 
-.row-article__text {
+.row-article__text, .row-article__text--skills {
   line-height: 1.5rem; }
   @media (min-width: 1600px) {
-    .row-article__text {
+    .row-article__text, .row-article__text--skills {
       line-height: 1.8rem; } }
   @media (min-width: 2500px) {
-    .row-article__text {
+    .row-article__text, .row-article__text--skills {
       line-height: 2.2rem; } }
 
 .row-article__head {
@@ -434,17 +434,20 @@ img {
   border-radius: 15px;
   margin: 0; }
 
-.row-article__text {
+.row-article__text, .row-article__text--skills {
   margin-top: 1.5rem; }
   @media (max-width: 599px) {
-    .row-article__text {
+    .row-article__text, .row-article__text--skills {
       margin-top: 0.75rem; } }
 
 .container--grey {
   background-color: #f0f3f5; }
 
-.row-article__text br {
+.row-article__text--skills {
   line-height: 2.3rem; }
+  @media (max-width: 599px) {
+    .row-article__text--skills {
+      line-height: 1.6rem; } }
 
 .container--cards {
   margin: auto;
